@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ACCIDENT ANGELS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="galleria/galleria-1.4.5.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .header{
+      height: 150px;
+    }
+    #grad {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, red); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, red); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, red); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, red); /* Standard syntax */
+  }
+  #grad2 {
+    background: gray; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, gray , white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, gray, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, gray, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, gray , white); /* Standard syntax */
+}
+#grad3 {
+background: red; /* For browsers that do not support gradients */
+background: -webkit-linear-gradient(red, black); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(red, black); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(red, black); /* For Firefox 3.6 to 15 */
+background: linear-gradient(red, black); /* Standard syntax */
+}
+    .logo{
+      margin-top: -197px;
+    }
+    /* footer height */
+    .footer{
+      margin-top: -50px;
+      height: 150px;
+    }
+    .verbiage{
+      height: 600px;
+    }
+    .main{
+      margin-left: 100px;
+    }
+    .verbiage span p{
+      margin-top: 200px 0px;
+    }
+    .sentence{
+      margin-left: -25px;
+    }
+  .carousel-inner img {
+      width: 80%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+      max-height: 460px;
+  }
+
+  body{
+    color: black;
+  }
+  .verbiage h2, .video{
+    margin-top: 100px;
+  }
+  .verbiage h2{
+    margin-left: 50px;
+  }
+  @import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+   font-family: "entypo", sans-serif;
+}
+a {
+   text-decoration: none;
+}
+ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+.container {
+   margin: 0 auto;
+   padding: 20px 50px;
+   background: white;
+}
+#sticky-social {
+   left: 0;
+   position: fixed;
+   top: 150px;
+}
+#sticky-social a {
+   background: #333;
+   color: #fff;
+   display: block;
+   height: 35px;
+   font: 16px "Open Sans", sans-serif;
+   line-height: 35px;
+   position: relative;
+   text-align: center;
+   width: 35px;
+}
+#sticky-social a span {
+   line-height: 35px;
+   left: -120px;
+   position: absolute;
+   text-align:center;
+   width:120px;
+}
+#sticky-social a:hover span {
+   left: 100%;
+}
+
+#sticky-social a[class*="envelope"],
+#sticky-social a[class*="envelope"]:hover,
+#sticky-social a[class*="envelope"] span { background: #517fa4; }
+
+#sticky-social a[class*="facebook"],
+#sticky-social a[class*="facebook"]:hover,
+#sticky-social a[class*="facebook"] span { background: #3b5998; }
+
+#sticky-social a[class*="twitter"],
+#sticky-social a[class*="twitter"]:hover,
+#sticky-social a[class*="twitter"] span { background: #00aced; }
+
+#sticky-social a[class*="google-plus"],
+#sticky-social a[class*="google-plus"]:hover,
+#sticky-social a[class*="google-plus"] span { background: #dd4b39; }
+
+#sticky-social a[class*="linkedin"],
+#sticky-social a[class*="linkedin"]:hover,
+#sticky-social a[class*="linkedin"] span { background: #007bb6; }
+
+#sticky-social a[class*="instagram"],
+#sticky-social a[class*="instagram"]:hover,
+#sticky-social a[class*="instagram"] span { background: #517fa4; }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none;
+    }
+  }
+  </style>
+</head>
+<body>
+
+<nav id="grad" class="navbar navbar-inverse header">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav header navbar-nav navbar-right">
+        <li class="active"><a href="index.html">ABOUT</a></li>
+        <li><a href="about.html">HOW WE WORK</a></li>
+        <li><a href="treatment.html">TREATMENT</a></li>
+        <li><a href="physicians.html">FOR PHYSICIANS</a></li>
+        <li><a href="insurance.html">FOR INSURANCE</a></li>
+        <li><a href="auto.html">AUTO LAW</a></li>
+        <li><a href="community.html">COMMUNITY</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+
+      <aside id="sticky-social">
+        <ul>
+          <li><a class="btn btn-social-icon btn-lg btn-envelope"><span class="fa fa-envelope"></span></a></li>
+          <li><a class="btn btn-social-icon btn-lg btn-facebook"><span class="fa fa-facebook"></span></a></li>
+          <li><a class="btn btn-social-icon btn-lg btn-twitter"><span class="fa fa-twitter"></span></a></li>
+          <li><a class="btn btn-social-icon btn-lg btn-google-plus"><span class="fa fa-google-plus"></span></a></li>
+          <li><a class="btn btn-social-icon btn-lg btn-linkedin"><span class="fa fa-linkedin"></span></a></li>
+          <li><a class="btn btn-social-icon btn-lg btn-instagram"><span class="fa fa-instagram"></span></a></li>
+      </ul>
+    </aside>
+    </div>
+  </div>
+
+
+  <img class="logo block" id="u114_img" src="images/logo-v-2.png?crc=3909200242" alt="" width="570" height="377"/>
+</nav>
+
+
+<div id="grad2" class="verbiage">
+    <div class="main row">
+    <div class="words col-xs-6">
+      <h2>About Accident Angels</h2>
+      <p style="margin-left: 50px;">We specialize in helping individuals who have been injured in an</p>
+      <p style="margin-left: 50px;">automobile or motorcycle accident.&nbsp; Our case management</p>
+      <p style="margin-left: 50px;">services help our clients, and their support team, understand the</p>
+      <p style="margin-left: 50px;">medical system and obtain their auto insurance benefits available</p>
+      <p style="margin-left: 50px;">under Michigan's No-Fault Auto Law, and receive the medical and</p>
+      <p style="margin-left: 50px;">psychological services to support optimal recovery.</p>
+      <p>&nbsp;</p>
+
+      <h4 style="margin-left: 20px;">We have a proven track record in Case Management</h4>
+      <ul class="list">
+       <li style="margin-left: 20px;">* We help our clients understand the medical benefits available under Michigan Law</li>
+       <li style="margin-left: 20px;">* We answer all your questions about your treatment plan and coordinate treatment with all of your physicians.&nbsp; We'll even go with you to the doctor!</li>
+       <li style="margin-left: 20px;">* Ensure each client understands the nature of the injury, connect you with a team of</li>
+       <li style="margin-left: 20px;">  &nbsp;   professionals to assist in your recovery.</li>
+       <li style="margin-left: 20px;">* We advocate for each of our clients, work with your auto insurance carrier, and assure the care our patients receive will lead to maximum recovery - particularly important in the first year after an injury.</li>
+     </ul>
+
+    </div>
+
+    <div class="col-xs-6">
+      <div class="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6HhVk7ECFv8" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+<div class="sentence">
+    <p class="text-center">We Provide the Best Medical Treatment Team for Your </p>
+    <p class="text-center">Motorcycle Accident or Automobile Accident</p>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="grad3"class="tag footer text-center">
+  <h1>WE GET YOU THE INSURANCE BENEFITS YOU DESERVE</h1>
+  <h2><a href="tel:1-855-392-6435">855-392-6435</a></h2>
+</div>
+
+</body>
+</html>

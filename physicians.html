@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ACCIDENT ANGELS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="galleria/galleria-1.4.5.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .header{
+      height: 150px;
+    }
+    #grad {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, red); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, red); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, red); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, red); /* Standard syntax */
+  }
+  #grad2 {
+    height: 750px;
+    background: gray; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, gray , white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, gray, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, gray, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, gray , white); /* Standard syntax */
+}
+#grad3 {
+background: red; /* For browsers that do not support gradients */
+background: -webkit-linear-gradient(red, black); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(red, black); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(red, black); /* For Firefox 3.6 to 15 */
+background: linear-gradient(red, black); /* Standard syntax */
+}
+    .logo{
+      margin-top: -197px;
+    }
+    .pic{
+      margin-top: -400px;
+      margin-left: 700px;
+    }
+    /* footer height */
+    .footer{
+      margin-top: -50px;
+      height: 150px;
+    }
+    .verbiage{
+      margin-top: -110px;
+      height: 700px;
+    }
+
+    .para h2 {
+      margin-left: 100px;
+    }
+    .process h2{
+      margin-left: 150px;
+
+    }
+    .main{
+      margin-left: 100px;
+    }
+    .verbiage span p{
+      margin-top: 200px 0px;
+    }
+    .sentence{
+      margin-left: -25px;
+    }
+  .carousel-inner img {
+      width: 80%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+      max-height: 460px;
+  }
+
+  body{
+    color: black;
+  }
+  .verbiage h2{
+    margin-top: 100px;
+  }
+  @import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+   font-family: "entypo", sans-serif;
+}
+a {
+   text-decoration: none;
+}
+ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+.container {
+   margin: 0 auto;
+   padding: 20px 50px;
+   background: white;
+}
+#sticky-social {
+   left: 0;
+   position: fixed;
+   top: 150px;
+}
+#sticky-social a {
+   background: #333;
+   color: #fff;
+   display: block;
+   height: 35px;
+   font: 16px "Open Sans", sans-serif;
+   line-height: 35px;
+   position: relative;
+   text-align: center;
+   width: 35px;
+}
+#sticky-social a span {
+   line-height: 35px;
+   left: -120px;
+   position: absolute;
+   text-align:center;
+   width:120px;
+}
+#sticky-social a:hover span {
+   left: 100%;
+}
+
+#sticky-social a[class*="envelope"],
+#sticky-social a[class*="envelope"]:hover,
+#sticky-social a[class*="envelope"] span { background: #3b5998; }
+
+#sticky-social a[class*="facebook"],
+#sticky-social a[class*="facebook"]:hover,
+#sticky-social a[class*="facebook"] span { background: #3b5998; }
+
+#sticky-social a[class*="twitter"],
+#sticky-social a[class*="twitter"]:hover,
+#sticky-social a[class*="twitter"] span { background: #00aced; }
+
+#sticky-social a[class*="google-plus"],
+#sticky-social a[class*="google-plus"]:hover,
+#sticky-social a[class*="google-plus"] span { background: #dd4b39; }
+
+#sticky-social a[class*="linkedin"],
+#sticky-social a[class*="linkedin"]:hover,
+#sticky-social a[class*="linkedin"] span { background: #007bb6; }
+
+#sticky-social a[class*="instagram"],
+#sticky-social a[class*="instagram"]:hover,
+#sticky-social a[class*="instagram"] span { background: #517fa4; }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none;
+    }
+  }
+  </style>
+</head>
+<body>
+
+<nav id="grad" class="navbar navbar-inverse header">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav header navbar-nav navbar-right">
+        <li><a href="index.html">ABOUT</a></li>
+        <li><a href="about.html">HOW WE WORK</a></li>
+        <li><a href="treatment.html">TREATMENT</a></li>
+        <li class="active"><a href="physicians.html">FOR PHYSICIANS</a></li>
+        <li><a href="insurance.html">FOR INSURANCE</a></li>
+        <li><a href="auto.html">AUTO LAW</a></li>
+        <li><a href="community.html">COMMUNITY</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+
+      <aside id="sticky-social">
+        <ul>
+          <li><a class="btn btn-social-icon btn-lg btn-envelope"><span class="fa fa-envelope"></span></a></li>
+          <li><a class="btn btn-social-icon btn-lg btn-facebook"><span class="fa fa-facebook"></span></a></li>
+          <li><a class="btn btn-social-icon btn-lg btn-twitter"><span class="fa fa-twitter"></span></a></li>
+          <li><a class="btn btn-social-icon btn-lg btn-google-plus"><span class="fa fa-google-plus"></span></a></li>
+          <li><a class="btn btn-social-icon btn-lg btn-linkedin"><span class="fa fa-linkedin"></span></a></li>
+          <li><a class="btn btn-social-icon btn-lg btn-instagram"><span class="fa fa-instagram"></span></a></li>
+      </ul>
+    </aside>
+    </div>
+  </div>
+
+
+  <img class="logo block" id="u114_img" src="images/logo-v-2.png?crc=3909200242" alt="" width="570" height="377"/>
+  <img class="pic block" id="u337_img" src="images/treatment%20team.jpg?crc=3946790409" alt="" width="210" height="168" data-muse-src="images/treatment%20team.jpg?crc=3946790409"/>
+</nav>
+
+<div id="grad2" class="container-fluid para">
+  <p style="margin-left: 150px; margin-top: 100px; font-size: 30px; font-weight: 100; font-size: 26px;"></p>
+  <p style="margin-left: 150px;"></p>
+<div class="process">
+  <h2 style="font-size: 26px;"></h2>
+  <ul>
+   <li style="margin-left: 150px;"><h2>Accident Angels is the Prescription for Maximum Recovery</h2></li>
+  </ul>
+
+<div class="why" style="font-size: 22px;">
+  <ul>
+    <p>&nbsp;</p>
+   <li style="margin-left: 150px;"><h3>Why Physicians Appreciate the Case Management Services Provided by Accident Angels</h3></li>
+   <p>&nbsp;</p>
+   <li style="margin-left: 150px;">Efficient office visits - Because we reate an open line of communication with both the patient and insurer, the case manager is able to provide an objective overview during each appointment and offer explanations for treatment.</li>
+   <li style="margin-left: 150px;">We help to keep the recovery process moving forward - The case managers at Accident Angels have an in-depth understanding of our patient's symptoms, diagnosis, concerns, and recommendations for treatment because we work in collaboration with all the members of your injury treatment team.</li>
+   <li style="margin-left: 150px;">Reduction in missed and canceked appointments - Our case manager utilize an appropriate level of encouragement to ensure the client keeps all appointments.</li>
+   <li style="margin-left: 150px;">Our case managers coordiante treatment with physicians and insurance companies - This means we will request an open claim letter regarding patients before starting any case.</li>
+   <li style="margin-left: 150px;"></li>
+   <li style="margin-left: 150px;"></li>
+  </ul>
+</div>
+        <p id="u343-30">&nbsp;</p>
+        <p style="margin-left: 150px;"></p>
+      <p style="margin-left: 150px;"></p>
+        <p>&nbsp;</p>
+              <p class="text-center" style="font-size: 20px;">Physicians, please refer your patient's to Accident Angels Injury Consultants</p>
+</div>
+
+</div>
+
+<div id="grad3"class="tag footer text-center">
+  <h1>WE GET YOU THE INSURANCE BENEFITS YOU DESERVE</h1>
+  <h2><a href="tel:1-855-392-6435">855-392-6435</a></h2>
+</div>
+
+</body>
+</html>
