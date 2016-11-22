@@ -3,6 +3,9 @@
   margin-bottom: 0;
   border-radius: 0;
 }
+.tnav{
+  margin-top: 125px;
+}
 .header{
   height: 150px;
 }
@@ -34,6 +37,10 @@ background: linear-gradient(red, black); /* Standard syntax */
 .pic{
   margin-top: -400px;
   margin-left: 700px;
+}
+.pic2{
+  margin-left: 1200px;
+  margin-top: -190px;
 }
 /* footer height */
 .footer{
@@ -67,7 +74,7 @@ background: linear-gradient(red, black); /* Standard syntax */
 }
 .giving{
   margin-top: 50px;
-  margin-left: 150px;
+  margin-left: 50px;
 }
 .show{
   margin-left: 50px;
@@ -127,7 +134,7 @@ width: 100%;
 #sticky-social {
 left: 0;
 position: fixed;
-top: 150px;
+top: 200px;
 }
 #sticky-social a {
 background: #333;
